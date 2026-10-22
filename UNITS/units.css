@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    height: 50vh;     /* vh vw are dependent on screen orientation */
+    width: 30vw;      /* vh vw are independent to each other*/
+    background-color: black;
+    font-size: 20px;
+}
+
+.box{
+    height: 50%;
+    width: 50%;
+    background-color: rgb(109, 153, 153);
+}
+
+h2{
+    /* font-size: 1rem; its a const value*/    
+    font-size: 1em; /*it depend on its parent element*/
+}
