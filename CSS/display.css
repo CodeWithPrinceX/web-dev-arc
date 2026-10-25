@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 10px;
+    /*subsitute to margin but it only works with flex property applied*/
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    /* flex-shrink: 0; for scroll bar if things going outside the workspace & applied on the child */
+    height: 30%;
+    width: 25%;
+    background-color: aquamarine;
+    /* margin-right: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
